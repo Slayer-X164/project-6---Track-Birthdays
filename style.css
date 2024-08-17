@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height: auto;
+    /* background-color: rgb(178, 232, 254); */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.container{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #d75dfc;
+
+}
+.p1{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #d75dfc8e;
+
+}
+img{
+    width: 250px;
+}
+input{
+    font-size: 1.5rem;
+    width: 280px;
+    outline: 2px solid #d75dfc;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px ;
+}
+input::placeholder{
+    color: #808080b3;
+}
+button{
+    cursor: pointer;
+    font-size: 1.25rem;
+    margin-top: 10px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgb(76, 173, 76);
+    box-shadow: 5px 5px 0px 0px black;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.p2{
+    font-size: 1.1rem;
+    color: #d75dfc;
+    font-weight: bold;
+}
+#other-birthday{
+    width: 92%;
+}
+.li-container{
+    box-sizing: border-box;
+    border: 1px solid #d75dfc;
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+}
+a{
+    overflow: scroll;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+}
