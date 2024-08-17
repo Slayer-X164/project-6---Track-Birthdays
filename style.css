@@ -68,6 +68,7 @@ button{
     width: 92%;
 }
 .li-container{
+    overflow: scroll;
     box-sizing: border-box;
     border: 1px solid #d75dfc;
     border-radius: 5px;
@@ -75,7 +76,6 @@ button{
     height: 300px;
 }
 a{
-    overflow: scroll;
     text-decoration: none;
     color: #000000;
     font-size: 1rem;
