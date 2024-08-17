@@ -14,8 +14,13 @@ const submitBtn = document.getElementById("submitBtn")
 const ulEl = document.getElementById("ul-el")
 
 submitBtn.addEventListener("click",()=>{
-    push(referenceInDB, inputEl.value)
-    inputEl.value=""
+    if(inputEl.value==""){
+        window.alert("Enter Valid Details")
+    }else{
+        push(referenceInDB, inputEl.value)
+        inputEl.value=""
+    }
+
 
 })
 
@@ -37,7 +42,7 @@ onValue(referenceInDB, (snapshot)=>{
     if(isSnapshot){
         const getSnapshot = snapshot.val()
         const allbdays = Object.values(getSnapshot)
-        renderBirthdays(allbdays)
+        renderBirthdays(allbdays.sort())
     }
 })
 
