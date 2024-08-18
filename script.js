@@ -29,7 +29,7 @@ function renderBirthdays(bdays){
     for(let i=0; i<bdays.length; i++){
         birthdaysList+=`
         <li>
-            <a target="_blank" href="${bdays[i]}">
+            <a style="pointer-events: none; cursor: default; target="_blank" href="#">
                 ${bdays[i]}
             </a>
         </li>`
