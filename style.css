@@ -69,6 +69,7 @@ button{
 }
 .li-container{
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
     box-sizing: border-box;
     border: 2px solid #d75dfc;
     border-radius: 5px;
